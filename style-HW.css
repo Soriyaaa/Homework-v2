@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(244, 196, 196);
+}
+
+.header{
+    background-color:coral;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+}
+
+
+.content{
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.image{
+  background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.table {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+.box{
+     border: 3px solid black;
+    outline-offset: 5px;
+    width: 200px;
+    padding: 20px;
+}
+
+th{
+    background-color: coral;
+}
+
+.form{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.form1{
+     background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+}
+.form2{
+     background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+}
