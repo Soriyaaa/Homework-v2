@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 
-    <link rel="stylesheet" href="style HW.css">
+    <link rel="stylesheet" href="style-HW.css">
     
     
     
@@ -19,16 +19,29 @@
             <h1>Student Practise Webpage</h1>
             <h5>HTML + CSS Practise (Form + Table Advancement)</h5>
         </div>
-    <p>hahaha</p>
-    <p>I love to Travel</p>
-    <p>Lveeeee</p>
-    <p>Diva</p>
+   
 
-<!--Image-->  
-        <div class="image">
+<!--Image1-square-->  
+        <div class="image-section">
             <h4>Image Section</h4>
-            <img id="Osaka Travel Place" src="https://i.pinimg.com/1200x/0b/55/c5/0b55c5b5cbaf688044ef0433cdc566f8.jpg" alt="width=300" height="300">
+            <img id="osaka-travel-place" src="https://i.pinimg.com/1200x/0b/55/c5/0b55c5b5cbaf688044ef0433cdc566f8.jpg" alt="width=150" height="150">
         </div>
+<!--Image2-circle-->  
+        <div class="Image-circle">
+        <div class="circle-container">
+            <h4>Image Circle</h4>
+            <img id="Osaka Travel place" src="https://i.pinimg.com/1200x/0b/55/c5/0b55c5b5cbaf688044ef0433cdc566f8.jpg" alt="width=150" height="150">
+        </div>
+        </div>
+
+<!--Image3-oval-->
+    <div class="Image-oval">
+          
+        <div class="oval-border">
+        <h4>Image Oval</h4> 
+        <img id="osaka-travel-place" src="https://i.pinimg.com/1200x/0b/55/c5/0b55c5b5cbaf688044ef0433cdc566f8.jpg" alt="width=150" height="150"> 
+    </div> 
+    </div>
 
         <!--Table-->
             <div class="table">
@@ -66,31 +79,29 @@
 <!--Form1-->
 
 <div class="form1" align="center">
-    <h4>Form 1: Basic Info</h4>
-<div class="form">
+    <h3>Form 1: Basic Info</h3>
     <form>
-    <label for="name">Name*</label>
-    <br>
+<div class="form-group">
+    <label for="name"><b>Name</b> <span class=required>*</span></label><br>
     <input type="text" id="name" name="name">
-    <br>
-    <label for="email">Email*</label>
-    <br>
+    </div>
+
+<div class="form-group">
+    <label for="email"><b>Email</b> <span class=required>*</span></label><br>
     <input type="text" id="email" emial="email">
-    <br>
-    <label for="password">Password*</label>
-    <br>
+    </div>
+<div class="form-group">
+    <label for="password"><b>Password</b> <span class=required>*</span></label><br>
     <input type="text" id="password" password="pword">
-    <br>
-</div>
-    <div class= "box">
-        <label for="file-upload"><b>Upload File</b></label>
-        <br>
+    </div>
+
+    <label for="file-upload"><b>Upload File</b></label><br>
+<div class= "box">
         <input type="file" id="file-upload" name="file-upload">
     </div>
-</div>
-    
-  <br>
-  <div class="button-group" align="center">
+
+
+<div class="button-group" align="center">
     <button type="submit" class="btn-blue">Submit</button>
     <button type="reset" class="btn-blue">Reset</button>
   </div>
@@ -99,9 +110,8 @@
 <!--Form2-->
     <div class="form2" align="center">
     </form>
-    <br>
 
-    <h4>Form 2: Survey Form</h4>
+    <h3>Form 2: Survey Form</h3>
 
     <div class="form-group">
     <label for="course"><b>Choose Course</b> <span class="required">*</span></label>
@@ -114,29 +124,37 @@
     </select>
     </div>
 
-<!--Form2-->
+<!--group-from2-->
+<div class="group-form2">
+    <h4>Gender</h4>
+    <div class="option">
+        <input type="radio" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" value="Male">
+        <label for="male">Male</label>
+    </div>
+</div>
 
-<h5>Gender</h5>
-    <input type="radio" id="female" value="female"><label for="female">Female</label>
+<div class="group-form2">
+    <h4>Skills</h4>
+    <div class="option">
+    <input type="checkbox" name= HTML id="HTML" placeholder="checkbox">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="CSS" id="CSS" placeholder="checkbox">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="js" id="js">
+    <label for="js">JS</label><br>
+    </div>
+</div>
 
-    <input type="radio" id="male" value="Male"><label for="male">Male</label><br>
-
-<h5>Skills</h5>
-<input type="checkbox" name= HTML id="HTML">
-<label for="html">HTML</label>
-<input type="checkbox" name="CSS" id="CSS">
-<label for="css">CSS</label>
-<input type="checkbox" name="js" id="js">
-<label for="js">JS</label><br>
-
-<label for="phone">Phone</label><br>
+<label for="phone"><b>Phone</b></label><br>
 <input type="text" name="phone" id="phone"><br>
 
 <!--message-->
-<label for="message">Message</label><br>
+<label for="message"><b>Message</b></label><br>
 <textarea name="message" id="message"></textarea><br>
 <button>Submit</button>
-
+</div>
 
 
 
